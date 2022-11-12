@@ -1,1 +1,5 @@
-include 'client', 'server'
+include 'client'
+include 'server:api'
+include 'server:application'
+include 'server:domain'
+include 'server:infra'
